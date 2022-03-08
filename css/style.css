@@ -1,0 +1,98 @@
+/* RESET  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON  */
+img{
+    width: 100%;
+}
+
+html{
+    font-family: 'Rubik Mono One', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.abs-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul {
+    list-style: none;
+}
+
+.page-container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.product img{
+    width: 50em;
+}
+
+.product-text{
+    /* color: yellow; MESSO NELLA SECTION PERCHE' E' ERIDITSABILE */
+    text-align: center;
+    font-size: 2.7em;
+}
+
+/* MENU  */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    /* background-color: green; */
+    text-align: end;
+    z-index: 50;
+}
+
+.header-tx{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.menu{
+    line-height: 70px;
+}
+
+.menu li{
+    display:inline-block;
+    padding: 0 1em;
+    border-radius: 50%;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+/* CONTENT  */
+
+
+#uno{
+    background-color: red;
+    color: yellow;
+}
+
+#due{
+    background-color: green;
+    color: yellow;
+}
+
+#tre{
+    background-color: yellow;
+    color: green;
+}
+
